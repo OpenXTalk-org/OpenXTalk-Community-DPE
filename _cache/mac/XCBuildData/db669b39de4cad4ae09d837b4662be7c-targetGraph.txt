@@ -1,0 +1,22 @@
+Target dependency graph (9 targets)
+libExternal in libexternal, no dependencies
+libExternal-symbol-exports in libexternal, no dependencies
+fetch-mac in fetch, no dependencies
+fetch in fetch, depends on:
+fetch-mac in fetch (explicit)
+thirdparty_prebuilt_dep in thirdparty, depends on:
+fetch in fetch (explicit)
+thirdparty_prebuilt_zip in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_z in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+libCore in libcore, no dependencies
+external-revzip in revzip, depends on:
+libExternal in libexternal (explicit)
+libExternal-symbol-exports in libexternal (explicit)
+thirdparty_prebuilt_zip in thirdparty (explicit)
+thirdparty_prebuilt_z in thirdparty (explicit)
+libCore in libcore (explicit)
+thirdparty_prebuilt_dep in thirdparty (explicit)
+fetch in fetch (explicit)
+fetch-mac in fetch (explicit)

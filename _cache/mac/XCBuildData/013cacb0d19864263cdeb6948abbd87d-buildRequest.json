@@ -1,0 +1,56 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "db932897ac14d48d1c56e2c4b42efec57ce9c6e16085a962233a4bda10fb3be1"
+    }
+  ],
+  "containerPath" : "/Volumes/Storage/Development/OpenXTalk-Community-DPE/build-mac/livecode/libbrowser/libbrowser.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "macosx",
+      "sdk" : "macosx12.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/paul/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/paul/Library/Developer/Xcode/DerivedData/libbrowser-bhygivpcvgoejletfmdfwznczlta/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/paul/Library/Developer/Xcode/DerivedData/libbrowser-bhygivpcvgoejletfmdfwznczlta/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

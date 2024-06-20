@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -1950,12 +1950,16 @@
 		D79E2084AE99624B22FC541D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 100000;
 			};
 			buildConfigurationList = AF2FB92DE90CD869ACF69918 /* Build configuration list for PBXProject "livecode" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = 3A88D1AC8F5F4F8444FE63E3;
 			projectDirPath = ../..;
 			projectReferences = (

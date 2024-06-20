@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -515,12 +515,16 @@
 		D51FC848CE0D6D94F93EDF44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 100000;
 			};
 			buildConfigurationList = 0C2DFEB6AA3E9A5FB9362636 /* Build configuration list for PBXProject "lcidlc" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = 8C8D27D5FA9A0470EB27349E;
 			projectDirPath = ../../../lcidlc;
 			projectReferences = (

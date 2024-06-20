@@ -7,17 +7,17 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>173</integer>
+			<integer>2</integer>
 		</dict>
 		<key>reflex (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>178</integer>
+			<integer>61</integer>
 		</dict>
 		<key>reflex.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>177</integer>
+			<integer>18</integer>
 		</dict>
 	</dict>
 </dict>

@@ -7,152 +7,152 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>13</integer>
 		</dict>
 		<key>thirdparty_prebuilt_cairo (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>57</integer>
+			<integer>93</integer>
 		</dict>
 		<key>thirdparty_prebuilt_cairo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>56</integer>
+			<integer>6</integer>
 		</dict>
 		<key>thirdparty_prebuilt_dep (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>37</integer>
+			<integer>73</integer>
 		</dict>
 		<key>thirdparty_prebuilt_dep.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>36</integer>
+			<integer>35</integer>
 		</dict>
 		<key>thirdparty_prebuilt_expat (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>43</integer>
 		</dict>
 		<key>thirdparty_prebuilt_expat.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>38</integer>
+			<integer>47</integer>
 		</dict>
 		<key>thirdparty_prebuilt_ffi (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>65</integer>
+			<integer>0</integer>
 		</dict>
 		<key>thirdparty_prebuilt_ffi.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>64</integer>
+			<integer>81</integer>
 		</dict>
 		<key>thirdparty_prebuilt_fontconfig (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>55</integer>
+			<integer>97</integer>
 		</dict>
 		<key>thirdparty_prebuilt_fontconfig.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>54</integer>
+			<integer>63</integer>
 		</dict>
 		<key>thirdparty_prebuilt_freetype (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>53</integer>
+			<integer>49</integer>
 		</dict>
 		<key>thirdparty_prebuilt_freetype.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>52</integer>
+			<integer>50</integer>
 		</dict>
 		<key>thirdparty_prebuilt_gif (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>43</integer>
+			<integer>88</integer>
 		</dict>
 		<key>thirdparty_prebuilt_gif.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>15</integer>
 		</dict>
 		<key>thirdparty_prebuilt_harfbuzz (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>51</integer>
+			<integer>69</integer>
 		</dict>
 		<key>thirdparty_prebuilt_harfbuzz.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>50</integer>
+			<integer>31</integer>
 		</dict>
 		<key>thirdparty_prebuilt_iodbc (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>69</integer>
+			<integer>12</integer>
 		</dict>
 		<key>thirdparty_prebuilt_iodbc.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>68</integer>
+			<integer>45</integer>
 		</dict>
 		<key>thirdparty_prebuilt_jpeg (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>62</integer>
 		</dict>
 		<key>thirdparty_prebuilt_jpeg.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>84</integer>
 		</dict>
 		<key>thirdparty_prebuilt_mysql (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>73</integer>
+			<integer>17</integer>
 		</dict>
 		<key>thirdparty_prebuilt_mysql.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>72</integer>
+			<integer>78</integer>
 		</dict>
 		<key>thirdparty_prebuilt_pcre (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>59</integer>
+			<integer>11</integer>
 		</dict>
 		<key>thirdparty_prebuilt_pcre.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>58</integer>
+			<integer>64</integer>
 		</dict>
 		<key>thirdparty_prebuilt_png (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>19</integer>
 		</dict>
 		<key>thirdparty_prebuilt_png.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>71</integer>
 		</dict>
 		<key>thirdparty_prebuilt_pq (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>71</integer>
+			<integer>24</integer>
 		</dict>
 		<key>thirdparty_prebuilt_pq.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>70</integer>
+			<integer>9</integer>
 		</dict>
 		<key>thirdparty_prebuilt_skia (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>49</integer>
+			<integer>38</integer>
 		</dict>
 		<key>thirdparty_prebuilt_skia.xcscheme_^#shared#^_</key>
 		<dict>
@@ -162,52 +162,60 @@
 		<key>thirdparty_prebuilt_sqlite (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>75</integer>
+			<integer>85</integer>
 		</dict>
 		<key>thirdparty_prebuilt_sqlite.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>74</integer>
+			<integer>94</integer>
 		</dict>
 		<key>thirdparty_prebuilt_xml (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>61</integer>
+			<integer>89</integer>
 		</dict>
 		<key>thirdparty_prebuilt_xml.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>60</integer>
+			<integer>3</integer>
 		</dict>
 		<key>thirdparty_prebuilt_xslt (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>63</integer>
+			<integer>95</integer>
 		</dict>
 		<key>thirdparty_prebuilt_xslt.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>62</integer>
+			<integer>42</integer>
 		</dict>
 		<key>thirdparty_prebuilt_z (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>100</integer>
 		</dict>
 		<key>thirdparty_prebuilt_z.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>40</integer>
+			<integer>72</integer>
 		</dict>
 		<key>thirdparty_prebuilt_zip (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>67</integer>
+			<integer>68</integer>
 		</dict>
 		<key>thirdparty_prebuilt_zip.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>66</integer>
+			<integer>86</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5D555B7C84716DD942FC7E4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

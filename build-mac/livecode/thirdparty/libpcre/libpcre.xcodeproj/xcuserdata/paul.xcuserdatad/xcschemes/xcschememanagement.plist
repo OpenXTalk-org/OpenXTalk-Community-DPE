@@ -7,17 +7,17 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>228</integer>
+			<integer>2</integer>
 		</dict>
 		<key>libpcre (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>234</integer>
+			<integer>0</integer>
 		</dict>
 		<key>libpcre.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>233</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>

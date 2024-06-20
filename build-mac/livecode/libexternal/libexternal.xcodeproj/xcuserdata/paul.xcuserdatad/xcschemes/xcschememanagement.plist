@@ -7,22 +7,22 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>190</integer>
+			<integer>1</integer>
 		</dict>
 		<key>libExternal (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>196</integer>
+			<integer>4</integer>
 		</dict>
 		<key>libExternal-symbol-exports.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>197</integer>
+			<integer>3</integer>
 		</dict>
 		<key>libExternal.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>195</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 </dict>

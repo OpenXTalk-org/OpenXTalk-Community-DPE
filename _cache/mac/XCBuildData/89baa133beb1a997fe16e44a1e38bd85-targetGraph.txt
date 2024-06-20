@@ -1,0 +1,378 @@
+Target dependency graph (104 targets)
+fetch-android in fetch, no dependencies
+fetch-linux in fetch, no dependencies
+fetch-mac in fetch, no dependencies
+fetch-win in fetch, no dependencies
+fetch-ios in fetch, no dependencies
+fetch-emscripten in fetch, no dependencies
+fetch-all in fetch, depends on:
+fetch-android in fetch (explicit)
+fetch-linux in fetch (explicit)
+fetch-mac in fetch (explicit)
+fetch-win in fetch (explicit)
+fetch-ios in fetch (explicit)
+fetch-emscripten in fetch (explicit)
+fetch in fetch, depends on:
+fetch-mac in fetch (explicit)
+fetch (host) in fetch, depends on:
+fetch-mac in fetch (explicit)
+All in fetch, depends on:
+fetch-all in fetch (explicit)
+fetch in fetch (explicit)
+fetch (host) in fetch (explicit)
+fetch-android in fetch (explicit)
+fetch-linux in fetch (explicit)
+fetch-mac in fetch (explicit)
+fetch-win in fetch (explicit)
+fetch-ios in fetch (explicit)
+fetch-emscripten in fetch (explicit)
+grts in grts, no dependencies
+gentle in gentle, depends on:
+grts in grts (explicit)
+grts (host) in grts, no dependencies
+gentle (host) in gentle, depends on:
+grts (host) in grts (explicit)
+All in gentle, depends on:
+gentle in gentle (explicit)
+gentle (host) in gentle (explicit)
+All in grts, depends on:
+grts in grts (explicit)
+grts (host) in grts (explicit)
+thirdparty_prebuilt_dep in thirdparty, depends on:
+fetch in fetch (explicit)
+thirdparty_prebuilt_ffi in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+libcompile in libcompile, depends on:
+thirdparty_prebuilt_ffi in thirdparty (explicit)
+lc-compile-ffi-java-lib in lc-compile-ffi-java-lib, no dependencies
+reflex in reflex, no dependencies
+libicu_include in libicu, no dependencies
+libicu_link in libicu, no dependencies
+libicu in libicu, depends on:
+fetch in fetch (explicit)
+libicu_include in libicu (explicit)
+libicu_link in libicu (explicit)
+minimal_icu_data in libicu, depends on:
+fetch (host) in fetch (explicit)
+encode_minimal_icu_data in libicu, depends on:
+minimal_icu_data in libicu (explicit)
+thirdparty_prebuilt_z in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+libFoundation Support in libfoundation, depends on:
+libicu in libicu (explicit)
+encode_minimal_icu_data in libicu (explicit)
+thirdparty_prebuilt_z in thirdparty (explicit)
+libFoundation in libfoundation, depends on:
+libFoundation Support in libfoundation (explicit)
+libicu in libicu (explicit)
+encode_minimal_icu_data in libicu (explicit)
+thirdparty_prebuilt_z in thirdparty (explicit)
+libffi in libffi, no dependencies
+libScript in libscript, depends on:
+thirdparty_prebuilt_ffi in thirdparty (explicit)
+lc-compile-ffi-java Support in lc-compile-ffi-java-generate, depends on:
+grts in grts (explicit)
+libcompile in libcompile (explicit)
+lc-compile-ffi-java-lib in lc-compile-ffi-java-lib (explicit)
+gentle in gentle (explicit)
+reflex in reflex (explicit)
+libFoundation in libfoundation (explicit)
+libicu in libicu (explicit)
+fetch in fetch (explicit)
+fetch-mac in fetch (explicit)
+libicu_include in libicu (explicit)
+libicu_link in libicu (explicit)
+encode_minimal_icu_data in libicu (explicit)
+minimal_icu_data in libicu (explicit)
+fetch (host) in fetch (explicit)
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_dep in thirdparty (explicit)
+libffi in libffi (explicit)
+libScript in libscript (explicit)
+thirdparty_prebuilt_ffi in thirdparty (explicit)
+lc-compile-ffi-java in lc-compile-ffi-java-generate, depends on:
+lc-compile-ffi-java Support in lc-compile-ffi-java-generate (explicit)
+grts in grts (explicit)
+libcompile in libcompile (explicit)
+lc-compile-ffi-java-lib in lc-compile-ffi-java-lib (explicit)
+gentle in gentle (explicit)
+reflex in reflex (explicit)
+libFoundation in libfoundation (explicit)
+libicu in libicu (explicit)
+fetch in fetch (explicit)
+fetch-mac in fetch (explicit)
+libicu_include in libicu (explicit)
+libicu_link in libicu (explicit)
+encode_minimal_icu_data in libicu (explicit)
+minimal_icu_data in libicu (explicit)
+fetch (host) in fetch (explicit)
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_dep in thirdparty (explicit)
+libffi in libffi (explicit)
+libScript in libscript (explicit)
+thirdparty_prebuilt_ffi in thirdparty (explicit)
+lc-compile-ffi-java in lc-compile-ffi-java, depends on:
+thirdparty_prebuilt_ffi in thirdparty (explicit)
+lc-compile-ffi-java in lc-compile-ffi-java-generate (explicit)
+thirdparty_prebuilt_dep (host) in thirdparty, depends on:
+fetch (host) in fetch (explicit)
+thirdparty_prebuilt_ffi (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+lc-compile-ffi-java (host) in lc-compile-ffi-java, depends on:
+thirdparty_prebuilt_ffi (host) in thirdparty (explicit)
+lc-compile-ffi-java in lc-compile-ffi-java-generate (explicit)
+All in lc-compile-ffi-java, depends on:
+lc-compile-ffi-java in lc-compile-ffi-java (explicit)
+lc-compile-ffi-java (host) in lc-compile-ffi-java (explicit)
+libcompile (host) in libcompile, depends on:
+thirdparty_prebuilt_ffi (host) in thirdparty (explicit)
+lc-compile-ffi-java-lib (host) in lc-compile-ffi-java-lib, no dependencies
+libicu_include (host) in libicu, no dependencies
+libicu_link (host) in libicu, no dependencies
+libicu (host) in libicu, depends on:
+fetch (host) in fetch (explicit)
+libicu_include (host) in libicu (explicit)
+libicu_link (host) in libicu (explicit)
+minimal_icu_data (host) in libicu, depends on:
+fetch (host) in fetch (explicit)
+encode_minimal_icu_data (host) in libicu, depends on:
+minimal_icu_data (host) in libicu (explicit)
+thirdparty_prebuilt_z (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+libFoundation (host) Support in libfoundation, depends on:
+libicu (host) in libicu (explicit)
+encode_minimal_icu_data (host) in libicu (explicit)
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+libFoundation (host) in libfoundation, depends on:
+libFoundation (host) Support in libfoundation (explicit)
+libicu (host) in libicu (explicit)
+encode_minimal_icu_data (host) in libicu (explicit)
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+libffi (host) in libffi, no dependencies
+libScript (host) in libscript, depends on:
+thirdparty_prebuilt_ffi (host) in thirdparty (explicit)
+lc-compile-ffi-java (host) Support in lc-compile-ffi-java-generate, depends on:
+grts (host) in grts (explicit)
+libcompile (host) in libcompile (explicit)
+lc-compile-ffi-java-lib (host) in lc-compile-ffi-java-lib (explicit)
+gentle in gentle (explicit)
+reflex in reflex (explicit)
+libFoundation (host) in libfoundation (explicit)
+libicu (host) in libicu (explicit)
+fetch (host) in fetch (explicit)
+fetch-mac in fetch (explicit)
+libicu_include (host) in libicu (explicit)
+libicu_link (host) in libicu (explicit)
+encode_minimal_icu_data (host) in libicu (explicit)
+minimal_icu_data (host) in libicu (explicit)
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+libffi (host) in libffi (explicit)
+libScript (host) in libscript (explicit)
+thirdparty_prebuilt_ffi (host) in thirdparty (explicit)
+lc-compile-ffi-java (host) in lc-compile-ffi-java-generate, depends on:
+lc-compile-ffi-java (host) Support in lc-compile-ffi-java-generate (explicit)
+grts (host) in grts (explicit)
+libcompile (host) in libcompile (explicit)
+lc-compile-ffi-java-lib (host) in lc-compile-ffi-java-lib (explicit)
+gentle in gentle (explicit)
+reflex in reflex (explicit)
+libFoundation (host) in libfoundation (explicit)
+libicu (host) in libicu (explicit)
+fetch (host) in fetch (explicit)
+fetch-mac in fetch (explicit)
+libicu_include (host) in libicu (explicit)
+libicu_link (host) in libicu (explicit)
+encode_minimal_icu_data (host) in libicu (explicit)
+minimal_icu_data (host) in libicu (explicit)
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+libffi (host) in libffi (explicit)
+libScript (host) in libscript (explicit)
+thirdparty_prebuilt_ffi (host) in thirdparty (explicit)
+libffi in libffi (implicit dependency via file 'libffi.a' in build phase 'Link Binary')
+All in lc-compile-ffi-java-generate, depends on:
+lc-compile-ffi-java (host) in lc-compile-ffi-java-generate (explicit)
+lc-compile-ffi-java in lc-compile-ffi-java-generate (explicit)
+All in lc-compile-ffi-java-lib, depends on:
+lc-compile-ffi-java-lib in lc-compile-ffi-java-lib (explicit)
+lc-compile-ffi-java-lib (host) in lc-compile-ffi-java-lib (explicit)
+All in libcompile, depends on:
+libcompile in libcompile (explicit)
+libcompile (host) in libcompile (explicit)
+libcpptest in libcpptest, no dependencies
+test-libcpptest in libcpptest, depends on:
+libcpptest in libcpptest (explicit)
+run-test-libcpptest in libcpptest, depends on:
+test-libcpptest in libcpptest (explicit)
+All in libcpptest, depends on:
+libcpptest in libcpptest (explicit)
+test-libcpptest in libcpptest (explicit)
+run-test-libcpptest in libcpptest (explicit)
+All in libffi, depends on:
+libffi in libffi (explicit)
+libffi (host) in libffi (explicit)
+test-libFoundation in libfoundation, depends on:
+libcpptest in libcpptest (explicit)
+libFoundation in libfoundation (explicit)
+libicu in libicu (explicit)
+fetch in fetch (explicit)
+fetch-mac in fetch (explicit)
+libicu_include in libicu (explicit)
+libicu_link in libicu (explicit)
+encode_minimal_icu_data in libicu (explicit)
+minimal_icu_data in libicu (explicit)
+fetch (host) in fetch (explicit)
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_dep in thirdparty (explicit)
+libffi in libffi (explicit)
+run-test-libFoundation in libfoundation, depends on:
+test-libFoundation in libfoundation (explicit)
+All in libfoundation, depends on:
+libFoundation in libfoundation (explicit)
+libFoundation (host) in libfoundation (explicit)
+test-libFoundation in libfoundation (explicit)
+run-test-libFoundation in libfoundation (explicit)
+All in libicu, depends on:
+libicu in libicu (explicit)
+libicu (host) in libicu (explicit)
+libicu_include in libicu (explicit)
+libicu_include (host) in libicu (explicit)
+libicu_link in libicu (explicit)
+libicu_link (host) in libicu (explicit)
+minimal_icu_data in libicu (explicit)
+minimal_icu_data (host) in libicu (explicit)
+encode_minimal_icu_data in libicu (explicit)
+encode_minimal_icu_data (host) in libicu (explicit)
+stdscript in libscript, no dependencies
+stdscript (host) in libscript, no dependencies
+All in libscript, depends on:
+libScript in libscript (explicit)
+libScript (host) in libscript (explicit)
+stdscript in libscript (explicit)
+stdscript (host) in libscript (explicit)
+reflex (host) in reflex, no dependencies
+All in reflex, depends on:
+reflex in reflex (explicit)
+reflex (host) in reflex (explicit)
+thirdparty_prebuilt_expat in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_expat (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_gif in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_gif (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_jpeg in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_jpeg (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_png in thirdparty, depends on:
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_png (host) in thirdparty, depends on:
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_freetype in thirdparty, depends on:
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_skia in thirdparty, depends on:
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_gif in thirdparty (explicit)
+thirdparty_prebuilt_png in thirdparty (explicit)
+thirdparty_prebuilt_jpeg in thirdparty (explicit)
+thirdparty_prebuilt_expat in thirdparty (explicit)
+thirdparty_prebuilt_freetype in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig in thirdparty (explicit)
+thirdparty_prebuilt_freetype (host) in thirdparty, depends on:
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_skia (host) in thirdparty, depends on:
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_gif (host) in thirdparty (explicit)
+thirdparty_prebuilt_png (host) in thirdparty (explicit)
+thirdparty_prebuilt_jpeg (host) in thirdparty (explicit)
+thirdparty_prebuilt_expat (host) in thirdparty (explicit)
+thirdparty_prebuilt_freetype (host) in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig (host) in thirdparty (explicit)
+thirdparty_prebuilt_harfbuzz in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_harfbuzz (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_cairo in thirdparty, depends on:
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_cairo (host) in thirdparty, depends on:
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_pcre in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_pcre (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_xml in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_xml (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_xslt in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_xslt (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_zip in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_zip (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_iodbc in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_iodbc (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_pq in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_pq (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_mysql in thirdparty, depends on:
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_mysql (host) in thirdparty, depends on:
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_sqlite in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_sqlite (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+All in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_expat in thirdparty (explicit)
+thirdparty_prebuilt_expat (host) in thirdparty (explicit)
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_gif in thirdparty (explicit)
+thirdparty_prebuilt_gif (host) in thirdparty (explicit)
+thirdparty_prebuilt_jpeg in thirdparty (explicit)
+thirdparty_prebuilt_jpeg (host) in thirdparty (explicit)
+thirdparty_prebuilt_png in thirdparty (explicit)
+thirdparty_prebuilt_png (host) in thirdparty (explicit)
+thirdparty_prebuilt_skia in thirdparty (explicit)
+thirdparty_prebuilt_skia (host) in thirdparty (explicit)
+thirdparty_prebuilt_harfbuzz in thirdparty (explicit)
+thirdparty_prebuilt_harfbuzz (host) in thirdparty (explicit)
+thirdparty_prebuilt_freetype in thirdparty (explicit)
+thirdparty_prebuilt_freetype (host) in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig (host) in thirdparty (explicit)
+thirdparty_prebuilt_cairo in thirdparty (explicit)
+thirdparty_prebuilt_cairo (host) in thirdparty (explicit)
+thirdparty_prebuilt_pcre in thirdparty (explicit)
+thirdparty_prebuilt_pcre (host) in thirdparty (explicit)
+thirdparty_prebuilt_xml in thirdparty (explicit)
+thirdparty_prebuilt_xml (host) in thirdparty (explicit)
+thirdparty_prebuilt_xslt in thirdparty (explicit)
+thirdparty_prebuilt_xslt (host) in thirdparty (explicit)
+thirdparty_prebuilt_ffi in thirdparty (explicit)
+thirdparty_prebuilt_ffi (host) in thirdparty (explicit)
+thirdparty_prebuilt_zip in thirdparty (explicit)
+thirdparty_prebuilt_zip (host) in thirdparty (explicit)
+thirdparty_prebuilt_iodbc in thirdparty (explicit)
+thirdparty_prebuilt_iodbc (host) in thirdparty (explicit)
+thirdparty_prebuilt_pq in thirdparty (explicit)
+thirdparty_prebuilt_pq (host) in thirdparty (explicit)
+thirdparty_prebuilt_mysql in thirdparty (explicit)
+thirdparty_prebuilt_mysql (host) in thirdparty (explicit)
+thirdparty_prebuilt_sqlite in thirdparty (explicit)
+thirdparty_prebuilt_sqlite (host) in thirdparty (explicit)

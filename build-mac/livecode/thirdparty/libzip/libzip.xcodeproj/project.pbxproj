@@ -292,12 +292,16 @@
 		269F2061FACD8D41731BA776 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 100000;
 			};
 			buildConfigurationList = 2C8F3AC3C5BB8059A2657C72 /* Build configuration list for PBXProject "libzip" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = 3D086F2D15B01D66691881C4;
 			projectDirPath = ../../../../thirdparty/libzip;
 			projectRoot = "";
@@ -367,6 +371,7 @@
 		09A297C9333D6927AFAA7ECC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				EXECUTABLE_PREFIX = lib;
 				GCC_INHIBIT_ALL_WARNINGS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -409,11 +414,11 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_THREADSAFE_STATICS = NO;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OBJROOT = "$(SOLUTION_DIR)/_cache/mac";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
 				SHARED_PRECOMPS_DIR = "$(OBJROOT)/Precompiled/$(CURRENT_ARCH)";
 				SOLUTION_DIR = ../..;
@@ -439,12 +444,12 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_THREADSAFE_STATICS = NO;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OBJROOT = "$(SOLUTION_DIR)/_cache/mac";
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
 				SHARED_PRECOMPS_DIR = "$(OBJROOT)/Precompiled/$(CURRENT_ARCH)";
 				SOLUTION_DIR = ../..;
@@ -471,11 +476,11 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_THREADSAFE_STATICS = NO;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OBJROOT = "$(SOLUTION_DIR)/_cache/mac";
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
 				SHARED_PRECOMPS_DIR = "$(OBJROOT)/Precompiled/$(CURRENT_ARCH)";
 				SOLUTION_DIR = ../..;
@@ -487,6 +492,7 @@
 		7A3B04A565A5C7404898CDB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				EXECUTABLE_PREFIX = lib;
 				GCC_INHIBIT_ALL_WARNINGS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -515,6 +521,7 @@
 		7D659AB66CECA6391773552E /* Fast */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				EXECUTABLE_PREFIX = lib;
 				GCC_INHIBIT_ALL_WARNINGS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (

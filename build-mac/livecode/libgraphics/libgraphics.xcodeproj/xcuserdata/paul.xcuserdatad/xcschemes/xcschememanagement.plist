@@ -7,17 +7,17 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>117</integer>
+			<integer>4</integer>
 		</dict>
 		<key>libGraphics (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>121</integer>
+			<integer>6</integer>
 		</dict>
 		<key>libGraphics.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>120</integer>
+			<integer>37</integer>
 		</dict>
 	</dict>
 </dict>

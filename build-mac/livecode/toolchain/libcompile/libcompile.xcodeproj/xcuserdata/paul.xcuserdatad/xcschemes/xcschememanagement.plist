@@ -7,17 +7,17 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>170</integer>
+			<integer>4</integer>
 		</dict>
 		<key>libcompile (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>175</integer>
+			<integer>29</integer>
 		</dict>
 		<key>libcompile.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>174</integer>
+			<integer>40</integer>
 		</dict>
 	</dict>
 </dict>

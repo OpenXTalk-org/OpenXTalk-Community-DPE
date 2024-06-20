@@ -7,97 +7,97 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>235</integer>
+			<integer>11</integer>
 		</dict>
 		<key>libskia (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>257</integer>
+			<integer>0</integer>
 		</dict>
 		<key>libskia.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>252</integer>
+			<integer>15</integer>
 		</dict>
 		<key>libskia_opt_arm (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>251</integer>
+			<integer>12</integer>
 		</dict>
 		<key>libskia_opt_arm.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>239</integer>
+			<integer>5</integer>
 		</dict>
 		<key>libskia_opt_avx (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>253</integer>
+			<integer>10</integer>
 		</dict>
 		<key>libskia_opt_avx.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>242</integer>
+			<integer>18</integer>
 		</dict>
 		<key>libskia_opt_hsw (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>255</integer>
+			<integer>4</integer>
 		</dict>
 		<key>libskia_opt_hsw.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>254</integer>
+			<integer>13</integer>
 		</dict>
 		<key>libskia_opt_none (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>241</integer>
+			<integer>14</integer>
 		</dict>
 		<key>libskia_opt_none.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>240</integer>
+			<integer>9</integer>
 		</dict>
 		<key>libskia_opt_sse2 (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>244</integer>
+			<integer>1</integer>
 		</dict>
 		<key>libskia_opt_sse2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>243</integer>
+			<integer>6</integer>
 		</dict>
 		<key>libskia_opt_sse3 (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>246</integer>
+			<integer>7</integer>
 		</dict>
 		<key>libskia_opt_sse3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>245</integer>
+			<integer>2</integer>
 		</dict>
 		<key>libskia_opt_sse41 (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>248</integer>
+			<integer>17</integer>
 		</dict>
 		<key>libskia_opt_sse41.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>247</integer>
+			<integer>3</integer>
 		</dict>
 		<key>libskia_opt_sse42 (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>250</integer>
+			<integer>8</integer>
 		</dict>
 		<key>libskia_opt_sse42.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>249</integer>
+			<integer>16</integer>
 		</dict>
 	</dict>
 </dict>

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -189,7 +189,12 @@
 			};
 			buildConfigurationList = 0A1C157A965255A28893D8A6 /* Build configuration list for PBXProject "libsqlite" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = CBAF18D7C5FE0D0B13955E0D;
 			projectDirPath = ../../../../thirdparty/libsqlite;
 			projectRoot = "";
@@ -421,7 +426,7 @@
 				B3C825799B7052CA09E0F5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		BB04FF638244F14AAB1491CD /* Build configuration list for PBXNativeTarget "libsqlite" */ = {
 			isa = XCConfigurationList;
@@ -431,7 +436,7 @@
 				91C1668CE4E2DED93E5E449F /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

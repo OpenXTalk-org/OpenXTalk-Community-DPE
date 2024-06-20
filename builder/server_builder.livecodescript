@@ -184,5 +184,5 @@ function getZipFilenameStub pVersion, pPlatform, pEdition
    else if pPlatform is "linux-armv6hf" then
       put "Linux-armv6hf" into pPlatform
    end if
-   return "LiveCode" & editionTitleCase(pEdition) & "Server-" & pVersion & "-" & pPlatform & ".zip"
+   return "OpenXTalk" & editionTitleCase(pEdition) & "Server-" & pVersion & "-" & pPlatform & ".zip"
 end getZipFilenameStub

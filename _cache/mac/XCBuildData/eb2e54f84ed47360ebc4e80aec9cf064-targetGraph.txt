@@ -1,0 +1,16 @@
+Target dependency graph (8 targets)
+libCore in libcore, no dependencies
+libCore (host) in libcore, no dependencies
+All in libcore, depends on:
+libCore in libcore (explicit)
+libCore (host) in libcore (explicit)
+libExternal in libexternal, no dependencies
+libExternal (host) in libexternal, no dependencies
+libExternal-symbol-exports in libexternal, no dependencies
+All in libexternal, depends on:
+libExternal in libexternal (explicit)
+libExternal (host) in libexternal (explicit)
+libExternal-symbol-exports in libexternal (explicit)
+external-revbrowser in revbrowser, depends on:
+libCore in libcore (explicit)
+libExternal in libexternal (explicit)

@@ -12,12 +12,12 @@
 		<key>encode_support.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>220</integer>
+			<integer>16</integer>
 		</dict>
 		<key>lcidlc.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>221</integer>
+			<integer>23</integer>
 		</dict>
 	</dict>
 </dict>

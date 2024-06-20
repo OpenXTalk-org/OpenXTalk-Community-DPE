@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+fetch-mac in fetch, no dependencies
+fetch (host) in fetch, depends on:
+fetch-mac in fetch (explicit)
+thirdparty_prebuilt_dep (host) in thirdparty, depends on:
+fetch (host) in fetch (explicit)
+thirdparty_prebuilt_sqlite (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)

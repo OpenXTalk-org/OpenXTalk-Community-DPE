@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+perfect (host) in perfect, no dependencies
+perfect in perfect, no dependencies
+All in perfect, depends on:
+perfect (host) in perfect (explicit)
+perfect in perfect (explicit)

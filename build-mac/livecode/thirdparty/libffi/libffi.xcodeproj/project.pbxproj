@@ -247,12 +247,16 @@
 		4BCF9E06C6DB1D30B53424DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 100000;
 			};
 			buildConfigurationList = 3F201194C1F59D42B3C6746B /* Build configuration list for PBXProject "libffi" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = 767E88597F3BC112815F58F2;
 			projectDirPath = ../../../../thirdparty/libffi;
 			projectRoot = "";

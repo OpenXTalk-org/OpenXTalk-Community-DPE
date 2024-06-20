@@ -1250,12 +1250,16 @@
 		D5A8D6A0D472B9EBFD1E41A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 100000;
 			};
 			buildConfigurationList = 1CD468BD0E9F9F8AC5DCECA0 /* Build configuration list for PBXProject "thirdparty" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = 4FBF7025857DE4701CE05D6B;
 			projectDirPath = ../../../prebuilt;
 			projectReferences = (
@@ -1276,9 +1280,9 @@
 				AAE2AB8989C145D38F48E9BF /* thirdparty_prebuilt_gif */,
 				6107FC25AACC63D74640BD40 /* thirdparty_prebuilt_gif (host) */,
 				6C7802FB7730E93DC9677214 /* thirdparty_prebuilt_jpeg */,
+				EFFEE45A88F9235F3E6458BB /* thirdparty_prebuilt_png (host) */,
 				57EBCCDBBE3A801E2AD34692 /* thirdparty_prebuilt_jpeg (host) */,
 				5C4FD5054B6EBEF371FDE140 /* thirdparty_prebuilt_png */,
-				EFFEE45A88F9235F3E6458BB /* thirdparty_prebuilt_png (host) */,
 				91EE14E1F4CFD70BD9056EA6 /* thirdparty_prebuilt_skia */,
 				F9D80924F78809318AC2E270 /* thirdparty_prebuilt_skia (host) */,
 				2868BA3274FACC56054535E6 /* thirdparty_prebuilt_harfbuzz */,

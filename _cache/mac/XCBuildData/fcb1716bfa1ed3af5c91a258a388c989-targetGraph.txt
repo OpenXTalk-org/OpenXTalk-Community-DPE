@@ -1,0 +1,139 @@
+Target dependency graph (44 targets)
+fetch-mac in fetch, no dependencies
+fetch in fetch, depends on:
+fetch-mac in fetch (explicit)
+thirdparty_prebuilt_dep in thirdparty, depends on:
+fetch in fetch (explicit)
+fetch (host) in fetch, depends on:
+fetch-mac in fetch (explicit)
+thirdparty_prebuilt_dep (host) in thirdparty, depends on:
+fetch (host) in fetch (explicit)
+thirdparty_prebuilt_expat in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_expat (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_z in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_z (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_gif in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_gif (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_jpeg in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_jpeg (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_png in thirdparty, depends on:
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_png (host) in thirdparty, depends on:
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_freetype in thirdparty, depends on:
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_skia in thirdparty, depends on:
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_gif in thirdparty (explicit)
+thirdparty_prebuilt_png in thirdparty (explicit)
+thirdparty_prebuilt_jpeg in thirdparty (explicit)
+thirdparty_prebuilt_expat in thirdparty (explicit)
+thirdparty_prebuilt_freetype in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig in thirdparty (explicit)
+thirdparty_prebuilt_freetype (host) in thirdparty, depends on:
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_skia (host) in thirdparty, depends on:
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_gif (host) in thirdparty (explicit)
+thirdparty_prebuilt_png (host) in thirdparty (explicit)
+thirdparty_prebuilt_jpeg (host) in thirdparty (explicit)
+thirdparty_prebuilt_expat (host) in thirdparty (explicit)
+thirdparty_prebuilt_freetype (host) in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig (host) in thirdparty (explicit)
+thirdparty_prebuilt_harfbuzz in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_harfbuzz (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_cairo in thirdparty, depends on:
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_cairo (host) in thirdparty, depends on:
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_pcre in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_pcre (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_xml in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_xml (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_xslt in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_xslt (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_ffi in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_ffi (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_zip in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_zip (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_iodbc in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_iodbc (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_pq in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_pq (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_mysql in thirdparty, depends on:
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_mysql (host) in thirdparty, depends on:
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_sqlite in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_sqlite (host) in thirdparty, depends on:
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+All in thirdparty, depends on:
+thirdparty_prebuilt_dep in thirdparty (explicit)
+thirdparty_prebuilt_dep (host) in thirdparty (explicit)
+thirdparty_prebuilt_expat in thirdparty (explicit)
+thirdparty_prebuilt_expat (host) in thirdparty (explicit)
+thirdparty_prebuilt_z in thirdparty (explicit)
+thirdparty_prebuilt_z (host) in thirdparty (explicit)
+thirdparty_prebuilt_gif in thirdparty (explicit)
+thirdparty_prebuilt_gif (host) in thirdparty (explicit)
+thirdparty_prebuilt_jpeg in thirdparty (explicit)
+thirdparty_prebuilt_jpeg (host) in thirdparty (explicit)
+thirdparty_prebuilt_png in thirdparty (explicit)
+thirdparty_prebuilt_png (host) in thirdparty (explicit)
+thirdparty_prebuilt_skia in thirdparty (explicit)
+thirdparty_prebuilt_skia (host) in thirdparty (explicit)
+thirdparty_prebuilt_harfbuzz in thirdparty (explicit)
+thirdparty_prebuilt_harfbuzz (host) in thirdparty (explicit)
+thirdparty_prebuilt_freetype in thirdparty (explicit)
+thirdparty_prebuilt_freetype (host) in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig in thirdparty (explicit)
+thirdparty_prebuilt_fontconfig (host) in thirdparty (explicit)
+thirdparty_prebuilt_cairo in thirdparty (explicit)
+thirdparty_prebuilt_cairo (host) in thirdparty (explicit)
+thirdparty_prebuilt_pcre in thirdparty (explicit)
+thirdparty_prebuilt_pcre (host) in thirdparty (explicit)
+thirdparty_prebuilt_xml in thirdparty (explicit)
+thirdparty_prebuilt_xml (host) in thirdparty (explicit)
+thirdparty_prebuilt_xslt in thirdparty (explicit)
+thirdparty_prebuilt_xslt (host) in thirdparty (explicit)
+thirdparty_prebuilt_ffi in thirdparty (explicit)
+thirdparty_prebuilt_ffi (host) in thirdparty (explicit)
+thirdparty_prebuilt_zip in thirdparty (explicit)
+thirdparty_prebuilt_zip (host) in thirdparty (explicit)
+thirdparty_prebuilt_iodbc in thirdparty (explicit)
+thirdparty_prebuilt_iodbc (host) in thirdparty (explicit)
+thirdparty_prebuilt_pq in thirdparty (explicit)
+thirdparty_prebuilt_pq (host) in thirdparty (explicit)
+thirdparty_prebuilt_mysql in thirdparty (explicit)
+thirdparty_prebuilt_mysql (host) in thirdparty (explicit)
+thirdparty_prebuilt_sqlite in thirdparty (explicit)
+thirdparty_prebuilt_sqlite (host) in thirdparty (explicit)

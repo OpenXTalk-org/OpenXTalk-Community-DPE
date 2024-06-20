@@ -1,0 +1,370 @@
+Library: IDE Docs library
+
+Type: library
+
+Summary: The IDE Docs library that fecthes Dictionary data. revIDEDocumentationLibrary
+
+
+Name: ideDocsFetchLCSDataOfType
+
+Type: function
+
+Syntax: ideDocsFetchLCSDataOfType(<pEntryName>,<pType>)
+
+Summary:
+Fetch the data for the script dictionary entry with name <pEntryName>
+and type <pType>
+
+Parameters:
+
+pEntryName: the name of a script entry to fetch documentation for
+
+pType: need to fill this entree in later
+
+Returns:
+An array of data pertaining to the unique script dictionary entry with the
+given name and type.
+
+
+Name: ideDocsFetchExtensionElementOfType
+
+Type: function
+
+Syntax: ideDocsFetchExtensionElementOfType(<pID>,<pEntryName>,<pType>,<pElement>)
+
+Summary:
+Fetch a specific element of the array of data for the entry in the API for extension <pID>
+with name <pEntryName> and type <pType>.
+
+Parameters:
+
+pID: a namespace idemtifier sich as an extension ID
+
+pEntryName: the name of a script entry to fetch documentation for
+
+pType: need to fill this entree in later
+
+pElement: need to fill this entree in later
+
+Returns:
+Either a string or an array
+of data describing the element of the array of data
+pertaining to the entry in the API for the given extension with the given name and type.
+
+
+
+Name: ideDocsFetchExtensionEntries
+
+Type: function
+
+Syntax: ideDocsFetchExtensionEntries(<pID>)
+
+Summary: Fetch the data for all entries in the API for extension <pID>
+
+Parameters:
+
+pID: a namespace idemtifier sich as an extension ID
+
+Returns:
+A numerically keyed array, each element of which is the array
+of data pertaining to an entry in the API for the given extension.
+
+
+
+Name: ideDocsFetchScriptData
+
+Type: function
+
+Syntax: ideDocsFetchScriptData(<pEntryName>)
+
+Summary: Fetch the data for LCS entries with name <pEntryName>, including extensions
+
+Parameters:
+
+pEntryName: the name of a entry to fetch documentation for
+
+Returns:
+A numerically keyed array, each element of which is the array
+of data
+pertaining to a Script API entry with the given name.
+
+
+
+Name: ideDocsFetchExtensionElementsOfType
+
+Type: function
+
+Syntax: ideDocsFetchExtensionElementsOfType(<pID>,<pType>)
+
+Summary: Fetch all docs element of the given type in the script dictionary.
+
+Parameters:
+
+pID: a namespace idemtifier sich as an extension ID
+
+pType: need to fill this entree in later
+
+Returns:
+A numerically keyed array of data, each element of which is an array of data
+pertaining to a script dictionary entry with the given type.
+
+
+
+Name: ideDocsFetchExtensionDataOfType
+
+Type: function
+
+Syntax: ideDocsFetchExtensionDataOfType(<pID>,<pEntryName>,<pType>)
+
+Summary:
+Fetch the data for the entry in the API for extension <pID> with name <pEntryName>
+and type <pType>
+
+Parameters:
+
+pID: a namespace idemtifier sich as an extension ID
+
+pEntryName: the name of a script entry to fetch documentation for
+
+pType: need to fill this entree in later
+
+Returns:
+An array
+of data pertaining to the unique entry in the API for the given extension with the
+given name and type.
+
+
+
+Name: ideDocsFetchLCSEntries
+
+Type: function
+
+Syntax: ideDocsFetchLCSEntries()
+
+Summary: Fetch the data for all entries in the script dictionary
+
+Returns:
+A numerically keyed array, each element of which is the array
+of data
+pertaining to an entry in the script dictionary.
+
+
+
+Name: ideDocsFetchLCBElementsOfType
+
+Type: function
+
+Syntax: ideDocsFetchLCBElementsOfType(<pType>)
+
+Summary: Fetch all docs element of the given type in the builder dictionary.
+
+Parameters:
+
+pType: need to fill this entree in later
+
+Returns:
+A numerically keyed array of data, each element of which is an array of data
+pertaining to a builder dictionary entry with the given type.
+
+
+
+Name: ideDocsFetchLibraryNames
+
+Type: function
+
+Syntax: ideDocsFetchLibraryNames()
+
+Summary: Returns a list of library names, one per line, which have API entries in the dictionary.
+
+
+
+
+Name: ideDocsFetchExtensionData
+
+Type: function
+
+Syntax: ideDocsFetchExtensionData(<pID>,<pEntryName>)
+
+Summary: Fetch the data for entries in the API for extension <pID> with name <pEntryName>
+
+Parameters:
+
+pID: a namespace idemtifier sich as an extension ID
+
+pEntryName: the name of a script entry to fetch documentation for
+
+Returns:
+A numerically keyed array, each element of which is the array
+of data pertaining to an entry in the API for the given extension with the given name.
+
+
+
+Name: ideDocsFetchLCSElementOfType
+
+Type: function
+
+Syntax: ideDocsFetchLCSElementOfType(<pEntryName>,<pType>,<pElement>)
+
+Summary:
+Fetch a specific element of the array of data for the script dictionary entry
+with name <pEntryName> and type <pType>.
+
+Parameters:
+
+pEntryName: the name of a script entry to fetch documentation for
+
+pType: need to fill this entree in later
+
+pElement: need to fill this entree in later
+
+Returns:
+Either a string or an array
+of data describing the element of the array of data
+pertaining to the script dictionary entry with the given name and type.
+
+
+
+Name: ideDocsFetchLCSData
+
+Type: function
+
+Syntax: ideDocsFetchLCSData(<pEntryName>)
+
+Summary: Fetch the data for script dictionary entries with name <pEntryName>
+
+Parameters:
+
+pEntryName: the name of a script entry to fetch documentation for
+
+Returns:
+A numerically keyed array, each element of which is the array
+of data
+pertaining to a  script dictionary entry with the given name.
+
+
+
+Name: ideDocsFetchLCBDataOfType
+
+Type: function
+
+Syntax: ideDocsFetchLCBDataOfType(<pEntryName>,<pType>)
+
+Summary:
+Fetch the data for the builder dictionary entry with name <pEntryName>
+and type <pType>
+
+Parameters:
+
+pEntryName: the name of a script entry to fetch documentation for
+
+pType: need to fill this entree in later
+
+Returns:
+An array
+of data pertaining to the unique builder dictionary entry with the
+given name and type.
+
+
+
+Name: ideDocsFetchLCBData
+
+Type: function
+
+Syntax: ideDocsFetchLCBData(<pEntryName>)
+
+Summary: Fetch the data for builder dictionary entries with name <pEntryName>
+
+Parameters:
+
+pEntryName: the name of a script entry to fetch documentation for
+
+pType: need to fill this entree in later
+
+pElement: need to fill this entree in later
+
+Returns:
+A numerically keyed array, each element of which is the array
+of data
+pertaining to a builder dictionary entry with the given name.
+
+
+
+Name: ideDocsFetchLCBElementOfType
+
+Type: function
+
+Syntax: ideDocsFetchLCBElementOfType(<pEntryName>,<pType>,<pElement>)
+
+Summary:
+Fetch a specific element of the array of data for the builder dictionary entry
+with name <pEntryName> and type <pType>.
+
+Parameters:
+
+pEntryName: the name of a script entry to fetch documentation for
+
+pType: need to fill this entree in later
+
+pElement: need to fill this entree in later
+
+Returns:
+Either a string or an array
+of data describing the element of the array of data
+pertaining to the builder dictionary entry with the given name and type.
+
+
+
+Name: ideDocsFetchLCBEntries
+
+Type: function
+
+Syntax: ideDocsFetchLCBEntries()
+
+Summary: Fetch the data for all entries in the builder dictionary
+
+Returns:
+A numerically keyed array, each element of which is the array
+of data
+pertaining to an entry in the builder dictionary.
+
+
+
+Name: ideDocsFetchLibraryEntries
+
+Type: function
+
+Syntax: ideDocsFetchLibraryEntries(<pLibraryName>)
+
+Summary: Fetch the data for all entries in a given library
+
+Parameters:
+
+pID: a namespace idemtifier sich as an extension ID
+
+pEntryName: the name of a script entry to fetch documentation for
+
+pType: need to fill this entree in later
+
+pElement: need to fill this entree in later
+
+Returns:
+A numerically keyed array, each element of which is the array
+of data pertaining to an entry in the given library API.
+
+
+
+Name: ideDocsFetchLCSElementsOfType
+
+Type: function
+
+Syntax: ideDocsFetchLCSElementsOfType(<pType>)
+
+Summary: Fetch all docs element of the given type in the script dictionary.
+
+Parameters:
+
+pType: need to fill this entree in later
+
+Returns:
+A numerically keyed array of data, each element of which is an array of data
+pertaining to a script dictionary entry with the given type.

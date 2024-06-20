@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+libCore in libcore, no dependencies
+libExternal in libexternal, no dependencies
+external-revbrowser in revbrowser, depends on:
+libCore in libcore (explicit)
+libExternal in libexternal (explicit)

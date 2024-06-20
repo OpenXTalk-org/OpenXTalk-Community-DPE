@@ -1,0 +1,78 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "e26f6e0fde8bf3ccbf4c7396d5b6f991620e74fb0df9b689d628137d4b6fa05a"
+    },
+    {
+      "guid" : "e26f6e0fde8bf3ccbf4c7396d5b6f9919ddddc62524fbac48194a66c6db3bd78"
+    },
+    {
+      "guid" : "e26f6e0fde8bf3ccbf4c7396d5b6f9919fdec2dc90b04df684a1e8e86f585f03"
+    },
+    {
+      "guid" : "4285ea8406320af151585281ca7c06bccf29179a6000c31bd8da28a91cd73031"
+    },
+    {
+      "guid" : "4285ea8406320af151585281ca7c06bcc05ddb7d93273839ca9c92d5dc90a213"
+    },
+    {
+      "guid" : "4285ea8406320af151585281ca7c06bc11603e19a90dd000f7aaca9ef021344f"
+    },
+    {
+      "guid" : "4285ea8406320af151585281ca7c06bcd2a96dfaa2961dc0d9bbbaa3cc968eae"
+    },
+    {
+      "guid" : "417fac72fa11653705306ea82b8e5f53c75f915d7e43e40dc6ad720129ffaa22"
+    }
+  ],
+  "containerPath" : "/Volumes/Storage/Development/OpenXTalk-Community-DPE/build-mac/livecode/revbrowser/revbrowser.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "macosx",
+      "sdk" : "macosx12.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/paul/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/paul/Library/Developer/Xcode/DerivedData/revbrowser-gnrnysibakihvxckmmivzqkoboav/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/paul/Library/Developer/Xcode/DerivedData/revbrowser-gnrnysibakihvxckmmivzqkoboav/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -12,52 +12,52 @@
 		<key>dbmysql-server.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>268</integer>
+			<integer>63</integer>
 		</dict>
 		<key>dbmysql.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>267</integer>
+			<integer>8</integer>
 		</dict>
 		<key>dbodbc-server.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>270</integer>
+			<integer>17</integer>
 		</dict>
 		<key>dbodbc.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>269</integer>
+			<integer>64</integer>
 		</dict>
 		<key>dbpostgresql-server.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>272</integer>
+			<integer>65</integer>
 		</dict>
 		<key>dbpostgresql.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>271</integer>
+			<integer>33</integer>
 		</dict>
 		<key>dbsqlite-server.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>274</integer>
+			<integer>30</integer>
 		</dict>
 		<key>dbsqlite.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>273</integer>
+			<integer>4</integer>
 		</dict>
 		<key>external-revdb-server.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>276</integer>
+			<integer>6</integer>
 		</dict>
 		<key>external-revdb.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>275</integer>
+			<integer>26</integer>
 		</dict>
 	</dict>
 </dict>

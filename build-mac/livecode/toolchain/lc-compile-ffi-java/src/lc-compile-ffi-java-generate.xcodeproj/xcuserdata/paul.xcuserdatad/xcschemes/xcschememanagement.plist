@@ -12,22 +12,22 @@
 		<key>lc-compile-ffi-java (host) Support.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>290</integer>
+			<integer>48</integer>
 		</dict>
 		<key>lc-compile-ffi-java (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>289</integer>
+			<integer>49</integer>
 		</dict>
 		<key>lc-compile-ffi-java Support.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>292</integer>
+			<integer>59</integer>
 		</dict>
 		<key>lc-compile-ffi-java.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>288</integer>
+			<integer>73</integer>
 		</dict>
 	</dict>
 </dict>

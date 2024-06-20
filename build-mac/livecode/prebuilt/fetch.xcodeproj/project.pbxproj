@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -406,12 +406,16 @@
 		FF03B30551DAF66A5A9D3C91 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 100000;
 			};
 			buildConfigurationList = 5209D4D8D7D2C1308E435FA0 /* Build configuration list for PBXProject "fetch" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = CCC96113AD4031CE91B5E279;
 			projectDirPath = ../../../prebuilt;
 			projectRoot = "";
@@ -503,7 +507,8 @@
 		};
 		8C51D7F638838510E3A79746 /* Action "fetch" */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -514,7 +519,7 @@
 				bin/mac,
 				lib/mac,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "echo note: \"Fetching prebuilt libraries for OSX\"\nexec ./fetch-libraries.sh mac\nexit 1\n";
 			showEnvVarsInLog = 0;
@@ -2715,7 +2720,7 @@
 				396A117CF38E3340BF532A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		5209D4D8D7D2C1308E435FA0 /* Build configuration list for PBXProject "fetch" */ = {
 			isa = XCConfigurationList;
@@ -2725,7 +2730,7 @@
 				23E6888F523FC7476B91ED76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		5AC1BAD312FF60EA92120535 /* Build configuration list for PBXAggregateTarget "fetch-all" */ = {
 			isa = XCConfigurationList;
@@ -2735,7 +2740,7 @@
 				2E8E9FA721C1C49B290E3688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		5B1489CA588FC62441714463 /* Build configuration list for PBXAggregateTarget "fetch" */ = {
 			isa = XCConfigurationList;
@@ -2745,7 +2750,7 @@
 				6C88E2656D76EF6E680561FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		6B22B55756924DBDDF262383 /* Build configuration list for PBXAggregateTarget "fetch-ios" */ = {
 			isa = XCConfigurationList;
@@ -2755,7 +2760,7 @@
 				F36C96C62BB589FECEE83992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		9149FD56180787598E3B16EA /* Build configuration list for PBXAggregateTarget "fetch (host)" */ = {
 			isa = XCConfigurationList;
@@ -2765,7 +2770,7 @@
 				AF4F7E0EF0BFE8F0BDD62377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		A496384AA8F43F0F014080E1 /* Build configuration list for PBXAggregateTarget "fetch-mac" */ = {
 			isa = XCConfigurationList;
@@ -2775,7 +2780,7 @@
 				805807368CA13E1B3F30ADA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		A7EA1B20E8896D7AD0B0AF69 /* Build configuration list for PBXAggregateTarget "fetch-linux" */ = {
 			isa = XCConfigurationList;
@@ -2785,7 +2790,7 @@
 				5DE5BF5A7B193624ABBE2C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		ECA1E68C8A5A9FE12E294011 /* Build configuration list for PBXAggregateTarget "fetch-emscripten" */ = {
 			isa = XCConfigurationList;
@@ -2795,7 +2800,7 @@
 				5D95A2D30CE53052180CC817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		EE70287524578B2A72648F37 /* Build configuration list for PBXAggregateTarget "All" */ = {
 			isa = XCConfigurationList;
@@ -2805,7 +2810,7 @@
 				16DE6C08E7F3D221742E5963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		F92A0D9169ACFA8F47BD3D09 /* Build configuration list for PBXAggregateTarget "fetch-android" */ = {
 			isa = XCConfigurationList;
@@ -2815,7 +2820,7 @@
 				B4D87882DBFE75559D3D8F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

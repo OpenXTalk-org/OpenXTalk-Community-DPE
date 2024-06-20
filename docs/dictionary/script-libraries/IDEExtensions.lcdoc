@@ -1,0 +1,248 @@
+Type: library
+
+Summary: The IDE Extension Library is for managing IDE Extensions. revIDEExtensionsLibrary
+
+Name: revIDEExtensions
+
+Type: function
+
+Syntax: revIDEExtensions(<pType>,<pStatus>,<pWithoutInvisible>)
+
+Summary: Returns the extension data as an array
+
+Parameters:
+
+pType: "library","widgets","modules","plugins"
+
+pStatus: "installed" to limit results to installed extensions
+
+pWithoutInvisible: treu to exclude 'userInvisible' extensions
+
+Example:
+// list widget extensions of any install-status:
+put revIDEExtensions ("library",,false] into tArray; put the keys of tArray
+
+// list plugin add-on extensions:
+put revIDEExtensions ("plugin","installed",false) into tArray; put the keys of tArray
+
+
+
+Name: revIDEExtensionPropertiesInfo
+
+Type: function
+
+Syntax: revIDEExtensionPropertiesInfo(<pTypeId>,<pOrganise>)
+
+Summary: Returns an Array of an extension's properties
+
+Parameters:
+
+pTypeId: an Extension name-space identifier string
+
+pOrganise: true for the result array to be organized by section
+
+Example:
+// list extension property names for the Clock Widget:
+put revIDEExtensionPropertiesInfo ("com.livecode.widget.clock",false) into tArray; put the keys of tArray
+
+
+
+Name: revIDEExtensionLibraryHandlers
+
+Type: function
+
+Syntax: revIDEExtensionLibraryHandlers(<pLibraryID>)
+
+Summary: List public handlers of a Library module for the given Extension ID
+
+Parameters:
+
+pExtensionID: An IDE Extension identifier
+
+Example:
+// Get a list of handlers from the Toast Library
+put revIDEExtensionLibraryHandlers( "com.livecode.library.toast")
+
+
+
+Name: revIDEExtensionSetLoadOnStartup
+
+Type: command
+
+Syntax: revIDEExtensionSetLoadOnStartup <pExtID>,<pValue>
+
+Summary: Set wether or not an extension loads on IDE startup
+
+Parameters:
+
+pExtID: an Extension name-space identifier string
+
+pValue: true or false
+
+Example:
+// Turn off loading of the Analog Clock widget
+revIDEExtensionToggleLoadOnStartup "com.livecode.widget.clock", false
+
+
+
+Name: revIDEExtensionToggleUserVisibility
+
+Type: command
+
+Syntax: revIDEExtensionToggleUserVisibility <pExtID>
+
+Summary: Toggle an extension visibility to the IDE user
+
+Parameters:
+
+pExtID: an Extension name-space identifier string
+
+Example:
+// hide/show the Tree View widget
+revIDEExtensionToggleUserVisibility "com.livecode.widget.treeview"
+
+
+
+Name: revIDEExtensionProperties
+
+Type: function
+
+Syntax: revIDEExtensionProperties(<pExtID>)
+
+Summary: Returns an Array of an extension's properties
+
+Parameters:
+
+pExtID: an Extension name-space identifier string
+
+Example:
+// list extension property names:
+put revIDEExtensionProperties ("com.livecode.library.scriptitems") into tArray; put the keys of tArray
+
+
+
+Name: revIDEExtensionStandaloneSettingsInfo
+
+Type: function
+
+Syntax: revIDEExtensionStandaloneSettingsInfo(<pTypeId>,<pOrganise>)
+
+Summary: get the standalone settings for an extension
+
+Parameters:
+
+pTypeId: an Extension name-space identifier string
+
+pOrganise: sert to SB ta panel
+
+Example: get revIDEExtensionStandaloneSettingsInfo("com.livecode.widget.clock", false); put the keys of it
+
+
+
+
+Name: revIDEExtensionUnload
+
+Type: command
+
+Syntax: revIDEExtensionUnload <pKind>
+
+Summary: unloads an Extension module for the given Extension ID
+
+Parameters:
+
+pExtensionID: An IDE Extension identifier
+
+Example:
+// Unload the Tree View Widget's module
+revIDEExtensionUnload  "com.livecode.widget.treeview"
+
+
+
+Name: revIDEExtensionProperty
+
+Type: function
+
+Syntax: revIDEExtensionProperty(<pExtID>,<pProperty>)
+
+Summary: Returns a specfic properties of an extension's properties
+
+Parameters:
+
+pExtID: an Extension name-space identifier string
+
+pProperty: the name of the property to reteive
+
+Example:
+// get the extension title:
+put revIDEExtensionProperty("com.livecode.library.scriptitems","title")
+
+
+
+Name: revIDEExtensionFileData
+
+Type: function
+
+Syntax: revIDEExtensionFileData(<pID>)
+
+Summary: gets file data for a given Extension ID
+
+Parameters:
+
+pExtensionID: An IDE Extension identifier
+
+Example:
+// display the "file" key, a file path to the Extension's bytcode module
+put revIDEExtensionFileData ( "com.livecode.widget.treeview") into tData; put tData["file"]
+
+// display the file "type" key, will be either 'lcb' or 'lcs'
+put revIDEExtensionFileData ( "com.livecode.widget.treeview") into tData; put tData["file"]
+
+
+
+Name: revIDEExtensionToggleLoadOnStartup
+
+Type: command
+
+Syntax: revIDEExtensionToggleLoadOnStartup <pExtID>
+
+Summary: Toggle wether or not an extension loads aton IDE startup
+
+Parameters:
+
+pExtID: an Extension name-space identifier string
+
+Example:
+// Turn on/off loading of the Analog Clock widget
+revIDEExtensionToggleLoadOnStartup "com.livecode.widget.clock"
+
+
+
+Name: doExtensionsChanged
+
+Type: command
+
+Syntax: doExtensionsChanged
+
+Summary: Send notication that widget has been added/removed.
+
+Description:
+Sends update notification with ideMessageSend "ideExtensionsChanged" to all
+objects that have subscribed to tha IDE message ideExtensionsChanged using <revIDESubscribe>.
+
+References: ideSubscribe (command), ideMessageSend (command)
+
+
+
+Name: revIDEExtensionGetLoadOnStartup
+
+Type: function
+
+Syntax: revIDEExtensionGetLoadOnStartup(<pExtID>)
+
+Summary: get wether or not an extension loads on IDE startup
+
+Parameters:
+
+pExtID: an Extension name-space identifier string
+
+Example: put revIDEExtensionGetLoadOnStartup("com.livecode.widget.clock")

@@ -1,0 +1,28 @@
+Target dependency graph (10 targets)
+fetch-android in fetch, no dependencies
+fetch-linux in fetch, no dependencies
+fetch-mac in fetch, no dependencies
+fetch-win in fetch, no dependencies
+fetch-ios in fetch, no dependencies
+fetch-emscripten in fetch, no dependencies
+fetch-all in fetch, depends on:
+fetch-android in fetch (explicit)
+fetch-linux in fetch (explicit)
+fetch-mac in fetch (explicit)
+fetch-win in fetch (explicit)
+fetch-ios in fetch (explicit)
+fetch-emscripten in fetch (explicit)
+fetch in fetch, depends on:
+fetch-mac in fetch (explicit)
+fetch (host) in fetch, depends on:
+fetch-mac in fetch (explicit)
+All in fetch, depends on:
+fetch-all in fetch (explicit)
+fetch in fetch (explicit)
+fetch (host) in fetch (explicit)
+fetch-android in fetch (explicit)
+fetch-linux in fetch (explicit)
+fetch-mac in fetch (explicit)
+fetch-win in fetch (explicit)
+fetch-ios in fetch (explicit)
+fetch-emscripten in fetch (explicit)

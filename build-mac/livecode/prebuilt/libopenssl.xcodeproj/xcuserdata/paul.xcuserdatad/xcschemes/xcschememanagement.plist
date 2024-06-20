@@ -7,27 +7,27 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>6</integer>
 		</dict>
 		<key>libopenssl (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>49</integer>
+			<integer>35</integer>
 		</dict>
 		<key>libopenssl.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>26</integer>
 		</dict>
 		<key>libopenssl_headers (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>43</integer>
 		</dict>
 		<key>libopenssl_headers.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>42</integer>
 		</dict>
 	</dict>
 </dict>

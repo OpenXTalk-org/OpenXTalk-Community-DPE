@@ -7,17 +7,17 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>164</integer>
+			<integer>3</integer>
 		</dict>
 		<key>grts (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>169</integer>
+			<integer>91</integer>
 		</dict>
 		<key>grts.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>168</integer>
+			<integer>66</integer>
 		</dict>
 	</dict>
 </dict>

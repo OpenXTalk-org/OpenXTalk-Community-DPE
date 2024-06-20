@@ -7,17 +7,17 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>207</integer>
+			<integer>5</integer>
 		</dict>
 		<key>external-revzip-server.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>212</integer>
+			<integer>40</integer>
 		</dict>
 		<key>external-revzip.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>211</integer>
+			<integer>12</integer>
 		</dict>
 	</dict>
 </dict>

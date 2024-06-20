@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -297,12 +297,16 @@
 		16625048DBE0C5FBDD509E99 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 100000;
 			};
 			buildConfigurationList = C4368CBB9595D34C2E68B6DF /* Build configuration list for PBXProject "engine-common" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = DFCF94C7E2A1E1F4026D4A78;
 			projectDirPath = ../../../engine;
 			projectRoot = "";
@@ -1095,6 +1099,7 @@
 				CONFIGURATION_BUILD_DIR = "$(SYMROOT)/$(CONFIGURATION)";
 				CONFIGURATION_TEMP_DIR = "$(OBJROOT)/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
+				EXCLUDED_ARCHS = "";
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1104,7 +1109,7 @@
 				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OBJROOT = "$(SOLUTION_DIR)/_cache/mac";
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx10.9;
 				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
 				SHARED_PRECOMPS_DIR = "$(OBJROOT)/Precompiled/$(CURRENT_ARCH)";
@@ -1453,6 +1458,7 @@
 				CONFIGURATION_BUILD_DIR = "$(SYMROOT)/$(CONFIGURATION)";
 				CONFIGURATION_TEMP_DIR = "$(OBJROOT)/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
+				EXCLUDED_ARCHS = "";
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -1463,6 +1469,7 @@
 				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OBJROOT = "$(SOLUTION_DIR)/_cache/mac";
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx10.9;
 				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
 				SHARED_PRECOMPS_DIR = "$(OBJROOT)/Precompiled/$(CURRENT_ARCH)";
@@ -1727,6 +1734,7 @@
 				CONFIGURATION_BUILD_DIR = "$(SYMROOT)/$(CONFIGURATION)";
 				CONFIGURATION_TEMP_DIR = "$(OBJROOT)/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
+				EXCLUDED_ARCHS = "";
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -1757,7 +1765,7 @@
 				9984286A38EFE828D1B80DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		12D747BF7F7288D68EC18DB6 /* Build configuration list for PBXAggregateTarget "quicktime_stubs (host)" */ = {
 			isa = XCConfigurationList;
@@ -1767,7 +1775,7 @@
 				4DD3F27EA91E98FAD8BC5ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		6CB804C7ECC8AF4688E6043B /* Build configuration list for PBXAggregateTarget "quicktime_stubs" */ = {
 			isa = XCConfigurationList;
@@ -1777,7 +1785,7 @@
 				E8E899E5B883A09763999DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		A2018D16EE45E3F2F8537ED6 /* Build configuration list for PBXNativeTarget "security-community" */ = {
 			isa = XCConfigurationList;
@@ -1787,7 +1795,7 @@
 				2FE3F1F27DD87DB88D185EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		A96FB8D3B461C9176E42C696 /* Build configuration list for PBXAggregateTarget "encode_version" */ = {
 			isa = XCConfigurationList;
@@ -1797,7 +1805,7 @@
 				652404F14F62F43C02D63D02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		C4368CBB9595D34C2E68B6DF /* Build configuration list for PBXProject "engine-common" */ = {
 			isa = XCConfigurationList;
@@ -1807,7 +1815,7 @@
 				BB033F6998BFF8DA26E30A59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		DE7E8ADE722D4ABA12F7AFE2 /* Build configuration list for PBXAggregateTarget "All" */ = {
 			isa = XCConfigurationList;
@@ -1817,7 +1825,7 @@
 				C2BA30CDD5BA501BFB829B8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 1;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

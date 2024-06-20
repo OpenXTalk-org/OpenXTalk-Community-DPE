@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+libCore in libcore, no dependencies
+libCore (host) in libcore, no dependencies
+All in libcore, depends on:
+libCore in libcore (explicit)
+libCore (host) in libcore (explicit)

@@ -7,17 +7,17 @@
 		<key>All.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>256</integer>
+			<integer>0</integer>
 		</dict>
 		<key>libz (host).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>263</integer>
+			<integer>2</integer>
 		</dict>
 		<key>libz.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>262</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>
