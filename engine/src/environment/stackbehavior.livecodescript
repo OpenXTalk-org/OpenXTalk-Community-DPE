@@ -144,10 +144,16 @@ on startup pTest
    
    fetchLicenseForVersion sVersion, tLicense
    licenseUnlock tLicense
-   
-   if firstRun() then
-      go to card "AccountSignUp"
-      return empty
+      if firstRun() then
+      -- ignore account signup
+      --go to card "AccountSignUp"
+      --return empty
+      return sHomePath
+      local tLicense
+      fetchLicenseForVersion sVersion, tLicense
+      licenseUnlock tLicense
+      answer information "Please relaunch this program to continue."
+      close this stack
    else
       return sHomePath
    end if
