@@ -982,10 +982,13 @@ function firstRun
    put sLicensePath & slash & "livecode-community.lcld" into tCommunityLCLD
    put sLicensePath & slash & "livecode.lcld" into tCommercialLCLD   
    if there is a file tFirstRunPath or there is a file  tCommunityLCLD or there is a file tCommercialLCLD then
-      return false
+     return false
    else
       put empty into url ("file:" & tFirstRunPath)
-      return true
+	  -- make the firstrun file anyway (tperry)
+	  open file tFirstRunPath
+      close file tFirstRunPath
+      return false
    end if
 end firstRun
 
