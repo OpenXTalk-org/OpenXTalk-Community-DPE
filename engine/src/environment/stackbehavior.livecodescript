@@ -144,10 +144,18 @@ on startup pTest
    
    fetchLicenseForVersion sVersion, tLicense
    licenseUnlock tLicense
-   
+
+   -- this should remove the registration dialog, but does mean a relaunch has to take place (tperry 20-11-2023)
    if firstRun() then
-      go to card "AccountSignUp"
-      return empty
+      -- ignore account signup
+      --go to card "AccountSignUp"
+      --return empty
+      return sHomePath
+      local tLicense
+      fetchLicenseForVersion sVersion, tLicense
+      licenseUnlock tLicense
+      answer information "Please relaunch this program to continue."
+      close this stack
    else
       return sHomePath
    end if
@@ -974,18 +982,22 @@ function firstRun
    -- this version has been installed.
    --
    local tLicense
-   put "name=LiveCode Community User" & return & "organization=" & return & "time=" & the seconds into tLicense
+   put "name=OpenXTalk user" & return & "organization=" & return & "time=" & the seconds into tLicense
    storeLicenseForVersion sVersion, tLicense   
    
    local tFirstRunPath, tCommunityLCLD, tCommercialLCLD  
-   put sLicensePath & slash & "livecode-firstrun.lcf" into tFirstRunPath
+   put sLicensePath & slash & "openxtalk-firstrun.lcf" into tFirstRunPath -- change from "livecode-firstrun" previously
    put sLicensePath & slash & "livecode-community.lcld" into tCommunityLCLD
    put sLicensePath & slash & "livecode.lcld" into tCommercialLCLD   
+   
    if there is a file tFirstRunPath or there is a file  tCommunityLCLD or there is a file tCommercialLCLD then
       return false
    else
+     -- license file didn't exist, so it gets created here
       put empty into url ("file:" & tFirstRunPath)
-      return true
+      -- return true
+      -- return false regardless, so the engine doesn't show the registration window (tperry 20-11-23)
+      return false
    end if
 end firstRun
 
