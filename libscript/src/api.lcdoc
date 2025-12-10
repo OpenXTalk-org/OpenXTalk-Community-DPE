@@ -1,0 +1,623 @@
+Library: com.livecode.arithmetic
+
+Type: module
+
+Summary: This library consists of the basic arithmetic operations of standard library of LiveCode Builder.
+
+
+Name: MinusUnaryOperator
+
+Type: operator
+
+Syntax:     - <Operand>
+
+Summary: Unary minus operator.
+
+Operand: An expression that evaluates to a number.
+
+Returns: The negated result of evaluating <Operand>.
+
+Example:
+variable tVar as Number
+put -(5 + 4) into tVar -- tVar contains -9
+
+Tags: Math
+
+
+
+
+Name: SubtractNumberFrom
+
+Type: statement
+
+Syntax:     subtract <Value> from <Target>
+
+Summary: Subtracts <Value> from <Target>.
+
+Target: An expression that evaluates to a numeric variable.
+
+Value: An expression that evaluates to a number.
+
+Example:
+variable tVar as real
+put 10 into tVar
+subtract 2.5 from tVar -- tVar contains 7.5
+
+Description:
+Subtracts the number <Value> from <Target>.
+
+>*Note:* It is a syntax error if <Target> does not evaluate to a variable.
+
+Tags: Math
+
+
+
+
+Name: AddNumberTo
+
+Type: statement
+
+Syntax:     add <Value> to <Target>
+
+Summary: Adds <Value> to <Target>.
+
+Target: An expression that evaluates to a numeric container.
+
+Value: An expression that evaluates to a number.
+
+Example:
+    variable tVar as Number
+    put 2 into tVar
+    add 10 to tVar -- tVar contains 12
+
+Description:
+Adds the number <Value> to <Target>.
+
+>*Note:* It is a syntax error if <Target> does not evaluate to a variable.
+
+Tags: Math
+
+
+
+
+Name: StringParsedAsNumber
+
+Type: operator
+
+Syntax:     <Operand> parsed as number
+
+Summary: Parses a string as an number
+
+Operand: An expression that evaluates to a string.
+
+Returns: <Operand> parsed as a number, or nothing.
+
+Example:
+variable tString as String
+variable tNum as optional Number
+put "5.6" into tString
+put tString parsed as number into tNum -- tNum contains 5.6
+
+Example:
+variable tNum as optional Number
+put "aaaa" parsed as number into tNum
+
+if tNum is nothing then
+	put 0 into tNum
+end if
+
+// tNum contains 0
+
+Description: Use <StringParsedAsNumber> when you want to interpret text numerically. nothing is returned if parsing was not possible.
+
+
+
+
+Name: NumberIsLessThanOrEqualToNumber
+
+Type: operator
+
+Syntax:     <Left> &lt;= <Right>
+
+Summary: Less than or equal to relation.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: True if <Left> is less than or equal to <Right>, and false otherwise.
+
+Description: 
+
+Tags: Math
+
+
+
+
+Name: MultiplyNumberBy
+
+Type: statement
+
+Syntax:     multiply <Target> by <Value>
+
+Summary: Multiplies <Target> by <Value>.
+
+Target: An expression that evaluates to a numeric variable.
+
+Value: An expression that evaluates to a number.
+
+Example:
+variable tVar as Number
+put 2 into tVar
+multiply tVar by 2 -- tVar contains 4
+
+Description:
+Multiplies the number <Target> by <Value>.
+
+>*Note:* It is a syntax error if <Target> does not evaluate to a variable.
+
+Tags: Math
+
+
+
+
+Name: NumberIsGreaterThanNumber
+
+Type: operator
+
+Syntax:     <Left> &gt; <Right>
+
+Summary: Greater than relation.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: True if <Left> is greater than <Right>, and false otherwise.
+
+
+
+
+Name: ParseListOfStringAsListOfNumber
+
+Type: statement
+
+Syntax:     parse <Operand> as list of number
+
+Summary: Parses a list of strings as a list of numbers
+
+Operand: An expression that evaluates to a list of strings.
+
+The result: <Operand> parsed as a list of numbers.
+
+Example:
+variable tListOfString as List
+variable tListOfNum as List
+split "1,2,3,4" by "," into tListOfString
+parse tListOfString as list of number into tListOfNum
+-- tListOfNum contains [ 1, 2, 3, 4 ]
+
+Description:
+Use <ParseListOfStringAsListOfNumber> when you want to interpret pieces of text numerically. If the input list contains elements which cannot be parsed as numbers, the corresponding element will be nothing.
+
+*Note:* It is an error if any element of <Operand> is not a string.
+
+
+
+Name: ParseStringAsNumber
+
+Type: statement
+
+Syntax:     parse <Operand> as number
+
+Summary: Parses a string as an number
+
+Operand: An expression that evaluates to a string.
+
+The result: <Operand> parsed as a number, or nothing.
+
+Example:
+variable tString as String
+put "5.6" into tString
+parse tString as number -- the result is 5.6
+
+Example:
+variable tResult as optional String
+variable tNum as optional Number
+
+parse "aaaa" as number into tNum
+
+if tNum is nothing then
+	put "unable to parse string" into tResult
+end if
+
+Description: Use <ParseStringAsNumber> when you want to interpret text numerically. The result is nothing if parsing was not possible.
+
+
+
+
+Name: TimesOperator
+
+Type: operator
+
+Syntax:     <Left> * <Right>
+
+Summary: Binary multiplication operator.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: The result of multiplying the numbers <Left> and <Right>.
+
+Example:
+variable tVar as Number
+put 3 * 5 into tVar -- tVar contains 15
+
+Tags: Math
+
+
+
+
+Name: OverOperator
+
+Type: operator
+
+Syntax:     <Left> / <Right>
+
+Summary: Binary division operator.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: The result of dividing the number <Left> by <Right>.
+
+Example:
+variable tVar as Number
+put 3 / 5 into tVar -- tVar contains 0.6
+
+Tags: Math
+
+
+
+
+Name: NumberIsNotNumber
+
+Type: operator
+
+Syntax:     <Left> is not <Right>
+
+Summary: Determines if <Left> is not <Right>.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: True if <Left> is not equal to <Right>, and false otherwise.
+
+Description: Returns the opposite of the <NumberIsNumber> operator.
+
+References: NumberIsNumber (operator)
+
+Tags: Math
+
+
+
+
+Name: ModOperator
+
+Type: operator
+
+Syntax:     <Left> mod <Right>
+
+Summary: Mod operator.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: <Left> mod <Right>.
+
+Example:
+variable tVar as Number
+put 4^((7 - 1)/2) mod 7 into tVar -- tVar contains 1
+
+Description: Returns the remainder on dividing <Left> by <Right>
+
+
+
+
+Name: MinusOperator
+
+Type: operator
+
+Syntax:     <Left> - <Right>
+
+Summary: Binary minus operator.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: The result of subtracting the number <Right> from <Left>.
+
+Example:
+variable tVar as Number
+put 5 - 3 - 1 into tVar -- tVar contains 1
+
+Tags: Math
+
+
+
+
+Name: WrapOperator
+
+Type: operator
+
+Syntax:     <Left> wrap <Right>
+
+Summary: Wrap operator.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns:
+If x >= 0, then x wrap y returns ((x-1) mod abs(y)) + 1.
+			If x < 0, then x wrap y returns -((x-1) mod abs(y)) + 1.
+
+Example:
+variable tVar as Number
+put 5 wrap 3 into tVar -- tVar contains 2
+
+Example:
+variable tVar as Number
+put -3 wrap 3 into tVar -- tVar contains -3
+
+Description:
+Use wrap to ensure the value of a variable stays within a specified range. For x,y > 0, 
+successive values of x wrap y cycle through the sequence 1, 2, ..., y.
+
+
+
+Name: NumberIsNumber
+
+Type: operator
+
+Syntax:     <Left> is <Right>
+
+Summary: Determines if <Left> is <Right>.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: True if <Left> is equal to <Right>, and false otherwise.
+
+Description: Identical to the <NumberIsEqualToNumber> operator.
+
+References: NumberIsEqualToNumber (operator)
+
+Tags: Math
+
+
+
+
+Name: FormatNumberAsString
+
+Type: statement
+
+Syntax:     format <Operand> as string
+
+Summary: Formats a numeric value as a string
+
+Operand: An expression that evaluates to a number.
+
+The result: <Operand> formatted as a string.
+
+Example:
+variable tNum as Number
+variable tString as String
+put 5 into tNum
+format tNum as string into tString
+-- tString contains "5"
+
+Description: Use <FormatNumberAsString> when you want to manipulate a numeric value as text.
+
+
+
+
+Name: NumberIsLessThanNumber
+
+Type: operator
+
+Syntax:     <Left> &lt; <Right>
+
+Summary: Less than relation.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: True if <Left> is less than <Right>, and false otherwise.
+
+Description: 
+
+Tags: Math
+
+
+
+
+Name: DivideNumberBy
+
+Type: statement
+
+Syntax:     divide <Target> by <Value>
+
+Summary: Divides <Target> by <Value>.
+
+Target: An expression that evaluates to a numeric variable.
+
+Value: An expression that evaluates to a number.
+
+Example:
+variable tVar
+put 3 into tVar
+divide tVar by 2 -- tVar contains 1.5
+
+Description:
+Divides the number <Target> by <Value>.
+
+>*Note:* It is a syntax error if <Target> does not evaluate to a variable.
+
+Tags: Math
+
+
+
+
+Name: NumberIsEqualToNumber
+
+Type: operator
+
+Syntax:     <Left> = <Right>
+
+Summary: Equal to relation.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: True if <Left> is equal to <Right>, and false otherwise.
+
+Description: 
+
+Tags: Math
+
+
+
+
+Name: NumberIsGreaterThanOrEqualToNumber
+
+Type: operator
+
+Syntax:     <Left> &gt;= <Right>
+
+Summary: Greater than or equal to relation.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: True if <Left> is greater than or equal to <Right>, and false otherwise.
+
+
+
+
+Name: PlusOperator
+
+Type: operator
+
+Syntax:     <Left> + <Right>
+
+Summary: Binary plus operator.
+
+Left: An expression that evaluates to a number.
+
+Right: An expression that evaluates to a number.
+
+Returns: The result of adding the numbers <Left> and <Right>.
+
+Example:
+variable tVar as Number
+put 5 + 4 + 3 into tVar -- tVar contains 12
+
+Tags: Math
+
+
+
+
+Name: NumberFormattedAsString
+
+Type: operator
+
+Syntax:     <Operand> formatted as string
+
+Summary: Formats a numeric value as a string
+
+Operand: An expression that evaluates to a number.
+
+Returns: <Operand> formatted as a string.
+
+Example:
+variable tString as String
+variable tNum as Number
+put 5 into tNum
+put tNum formatted as string into tString -- tString contains "5"
+
+Description: Use <NumberFormattedAsString> when you want to manipulate a numeric value as text.
+
+
+
+
+Name: PlusUnaryOperator
+
+Type: operator
+
+Syntax:     + <Operand>
+
+Summary: Unary plus operator.
+
+Operand: An expression that evaluates to a number.
+
+Returns: The result of evaluating <Operand>.
+
+Example:
+variable tVar as Number
+put +5 into tVar -- tVar contains 5
+
+Description: The unary plus operator is a no-op on the predefined numeric types.
+
+Tags: Math
+
+
+
+
+Name: ListOfStringParsedAsListOfNumber
+
+Type: operator
+
+Syntax:     <Operand> parsed as list of number
+
+Summary: Parses a list of strings as a list of numbers
+
+Operand: An expression that evaluates to a list of strings.
+
+Returns: <Operand> parsed as a list of numbers.
+
+Example:
+variable tListOfString as List
+variable tListOfNum as List
+split "1,2,3,4" by "," into tListOfString
+put tListOfString parsed as list of number into tNum -- tListOfNum contains [ 1, 2, 3, 4 ]
+
+Example:
+variable tList as List
+put ["1", "b", "3"] parsed as list of number into tList
+
+variable tElt as Number
+repeat with tElt from 1 up to the number of elements in tList
+	if tList[tElt] is nothing then
+		put 0 into element tElt of tList
+	end if
+end repeat
+
+// tList contains [ 1, 0, 3 ]
+
+Description:
+Use <ListOfStringParsedAsListOfNumber> when you want to interpret pieces of text numerically. If the input list contains elements which cannot be parsed as numbers, the corresponding element will be nothing.
+
+*Note:* It is an error if any element of <Operand> is not a string.
+
+
+
