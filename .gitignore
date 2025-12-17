@@ -1,4 +1,5 @@
 ._*
+*._*
 ._config.py
 ._config.py-orig
 ._config.pyc
@@ -166,3 +167,4 @@ build-mac/livecode/engine/._kernel-server.xcodeproj
 build-mac/livecode/engine/._kernel-standalone.xcodeproj
 build-mac/livecode/engine/._kernel.xcodeproj
 build-mac/livecode/engine/._lcb-modules.xcodeproj
+ide
