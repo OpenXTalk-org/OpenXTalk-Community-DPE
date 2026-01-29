@@ -168,3 +168,4 @@ build-mac/livecode/engine/._kernel-standalone.xcodeproj
 build-mac/livecode/engine/._kernel.xcodeproj
 build-mac/livecode/engine/._lcb-modules.xcodeproj
 ide
+.DS_Store
